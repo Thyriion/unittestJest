@@ -1,0 +1,26 @@
+{
+  "name": "unittestjest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:cov": "npm test -- --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thyriion/unittestJest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thyriion/unittestJest/issues"
+  },
+  "homepage": "https://github.com/Thyriion/unittestJest#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^29.2.0"
+  },
+  "type": "module"
+}
